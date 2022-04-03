@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 /**
- * Reset CSS
+ * Universal
  */
 * {
   margin: 0;
@@ -96,37 +96,31 @@ body {
  * 3D Animations
  */
 @keyframes main-effect {
-  0% {
+  0%,
+  100% {
     color: #d887a8;
   }
   50% {
     color: #7e5a7b;
   }
-  100% {
-    color: #d887a8;
-  }
 }
 
 @keyframes before-effect {
-  0% {
+  0%,
+  100% {
     opacity: 0.8;
   }
   50% {
     opacity: 0;
-  }
-  100% {
-    opacity: 0.8;
   }
 }
 
 @keyframes after-effect {
-  0% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {
     opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }
